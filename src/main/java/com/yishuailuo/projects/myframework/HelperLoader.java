@@ -1,9 +1,6 @@
 package com.yishuailuo.projects.myframework;
 
-import com.yishuailuo.projects.myframework.helper.BeanHelper;
-import com.yishuailuo.projects.myframework.helper.ClassHelper;
-import com.yishuailuo.projects.myframework.helper.ControllerHelper;
-import com.yishuailuo.projects.myframework.helper.IocHelper;
+import com.yishuailuo.projects.myframework.helper.*;
 import com.yishuailuo.projects.myframework.util.ClassUtil;
 
 /**
@@ -15,6 +12,7 @@ public final class HelperLoader {
         Class<?>[] classes = {
                 ClassHelper.class,
                 BeanHelper.class,
+                AopHelper.class,
                 IocHelper.class,
                 ControllerHelper.class
         };
